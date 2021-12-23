@@ -1,0 +1,143 @@
+.header {
+   padding: 20px; 
+}
+body{
+    color:rgb(165, 135, 100);
+    font-family: cursive;
+    height: 100%;
+}
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+.navbar {
+    position: relative;
+    color: lightgray;
+    display:inline;
+}
+ul{
+    color: lightgray;
+    display: inline;
+}
+li{
+    display: inline;
+    color: lightgray;
+    padding: 10px;
+    font-size: larger;   
+}
+ a{
+    color:rgb(165, 135, 100);
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: black
+    
+}
+
+#ad{
+    align-items: center;
+}
+button{
+   background-color: white;
+  color: black;
+  border: 2px solid rgb(165, 135, 100);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+button:hover{
+    background-color: rgb(165, 135, 100); /* Green */
+  color: white;
+}
+.price{
+    color: rgb(56, 179, 111);
+    font-size: larger;
+    font-weight: bold;
+}
+.product{
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    margin:20px;
+    border: 1px,rgb(165, 135, 100);
+    background-color: seashell;
+}
+.p{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+hr{
+    border: 1px solid rgb(165, 135, 100);
+    border-radius: 5px;
+}
+#footer{
+    background-color:seashell;
+    width: auto;
+    height: 70px;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 50px;
+}
+.productdetails {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+form{
+    background-color: seashell;
+    padding: 50px;
+    margin: 50px;
+    width: 500px;
+    height: 300px;
+    
+}
+#formm{
+    background-image: url("hmgoepprod_1.jpg");
+    
+}
+#about{
+    background-color: seashell;
+    width: 600px;
+    height: 300px;
+    padding: 60px;
+    margin-left: 325px;
+    margin-right: 20px;
+}
+.aboutus{
+    background-color: white;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    border:1px, rgb(165, 135, 100);
+    height: 60%;
+    padding: 15px;
+}
+td {
+    text-align: center;
+
+  }
+
