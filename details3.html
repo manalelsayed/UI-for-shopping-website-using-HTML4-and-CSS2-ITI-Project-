@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css"/>
+    <script  src="details.js"></script>
+    
+    <title>Details</title>
+</head>
+<body>
+    <div class="header"> 
+        <div class="container"> 
+            <img class="logo" src="imgs/logo.png" alt="" />
+            <div class="navbar">
+                <ul>
+                  <li> <a href=" home.html" >home </a></li>
+                  <li> <a href=" cart.html" >cart</a></li>
+                  <li> <a href=" about.html" >about us</a></li>
+                  <li> <a href=" contact.html" >contact us </a></li>
+                  <li> <a href="login.html" id="loginNav" > Log in</a></li>
+            </ul>
+            </div>
+    
+        </div>
+        </div>
+        <hr width="70%">
+
+    <div class="productdetails" >
+        <div class="details" id="detailsImgDiv"><img src="imgs/3.jpg" width="350px" id="productImg"> </div>
+        
+        <div class="details"> <form>
+                <h2 id="productName">Corduroy cargo overshirt</h2>
+            <p id="productDescription">Collared overshirt with long sleeves. Button-up front fastening. Front pockets with flaps and button. Available in several colours.</p>
+           
+                <div id="select">
+                    <label for="cars">Choose your size:</label>
+
+                 <select name="size" id="productSize">
+                    <option value="xsmall">XS</option>
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                </select>
+                </div>
+                <div id="select">
+                    <label for="color">Choose your color:</label>
+
+                 <select name="color" id="productColor">
+                    <option value="white">white</option>
+                    <option value="black">Black</option>
+                    
+                </select>
+                </div>
+                <div>
+                    <span>EGP</span><p id="productprice">429</p>
+                </div>
+                <div>
+                    <a id="plus"><span class="qq">+</span></a>
+                    <input type="text" id="quantity" placeholder="1"readonly>
+                    <a id=minus ><span class="qq">-</span></a><br>
+                    <span id="quantityLog"></span>
+                    
+                </div>
+                
+                <button type="button" class="addToCart" id="addToOrder">Add to cart</button>
+            </form>
+        
+        </div>
+        
+        
+    </div>
+        <hr width="70%">
+    <div id="footer" align="center">
+        <div class="navbar">
+            <ul>
+              <li> <a href=" about.html" >about us</a></li>/
+              <li> <a href=" contact.html" >contact us </a></li>
+        </ul>
+        </div>
+        <div style="background-color: rgb(165,135,100); text-align:center; color:white;">B | All Rights Reserved @2021</div>
+
+    </div>
+</body>
+</html>

@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css"/>
+    <script src="contact.js"></script>
     <title>contact</title>
 </head>
 <body>
     <div class="header"> 
         <div class="container"> 
-            <img class="logo" src="logo.png" alt="" />
+            <img class="logo" src="imgs/logo.png" alt="" />
             <div class="navbar">
                 <ul>
                   <li> <a href="Home.html" >home </a></li>
@@ -24,18 +23,25 @@
         </div>
         <hr width="70%">
         <div id="formm" align="center">
-            <form method="get" align="center">
+            <!-- <form action="mailto:someone@example.com" method="post" align="center"> -->
                 <h2>Contact Us</h2>
-                <div id="name"><h3>Name</h3>
-               <input type="text" placeholder="Enter Your Name please..." name="name">
+                <div ><h3>Name</h3>
+               <input type="text" placeholder="Enter Your Name please..." name="name" id="ContactName"><br>
+               <span id="ContactNameLog" class="logspan"></span>
+
                </div>
-               <div id="name"><h3>Address</h3>
-                   <input type="text" placeholder="Enter Your Address please..." name="address">
+               <div ><h3>Mail</h3>
+                   <input type="text" placeholder="Enter Your Address please..." name="address" id="contactMail"><br>
+                   <span id="ContactMailLog" class="logspan"></span>
+
                    </div>
-                   <div id="name"><h3>Leave your Comments if you have any</h3>
-                       <input type="text" placeholder="......" name="comment">
+                   <div ><h3>subject</h3>
+                       <input type="text" placeholder="......" name="comment" id="contactComment"><br>
+                       <span id="contactCommentLog" class="logspan"></span>
                        </div>
-                       <button type="submit" value="send">Send</button>
+                       <button  value="contact" id="contactBtn">Send</button>
+
+                       <!-- <button type="submit" value="send" id="contactBtn">Send</button> -->
 
             </form>
         

@@ -3,8 +3,9 @@
 <head>
 
     <link rel="stylesheet" href="style.css"/>
-    <title>Home</title>
-    <script src="script.js"></script>
+    <script src="login.js"></script>
+     <title>Home</title>
+    
 </head>
 <body>
     <div class="header"> 
@@ -16,29 +17,33 @@
               <li> <a href=" cart.html" >cart</a></li>
               <li> <a href=" about.html" >about us</a></li>
               <li> <a href="contact.html" >contact us </a></li>
-              <li> <a href="login.html" id="loginNav" > Log in</a></li>
               
         </ul>
         </div>
 
     </div>
     </div>
-
-
     <hr width="70%">
-    <div id="ad" align="center">
-        <a name="namedanchor"><a href="#collection"><h1>our new collection</h1></a></a>
-        
-        <img src="imgs/hmgoepprod_1.jpg">
+   
+    <div id="formm" align="center">
+        <form method="get" align="center">
+            <h2>Log In</h2>
+            <div ><h3>Mail</h3>
+           <input type="text" placeholder="Enter Your mail please..." name="username" id="username">
+           <span class="logspan" id="logusr"></span>
+           </div>
+           <div ><h3>password</h3>
+               <input type="text" placeholder="Enter Your password please..." name="password" id="password">
+               <span id="logpass" class="logspan"></span>
+               <P>not registered?<a href="register.html"> register here</a></P>
+               </div>
+               
+                   <button type="button" value="send" id="login">Log me in!</button>
+
+        </form>
     
     
     </div>
-    <hr width="70%">
-    
-    <a name="collection">
-      <div id="productsDiv" align="center">
-     </div>
-    </a>
 
     <div id="footer" align="center">
         <div class="navbar">
@@ -50,7 +55,6 @@
         <div style="background-color: rgb(165,135,100); text-align:center; color:white;">B | All Rights Reserved @2021</div>
 
     </div>
-   
       
    
 </body>
